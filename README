@@ -1,0 +1,7 @@
+This is a mancala search-based AI I wrote during my internship during the summer of 2011
+
+It uses a minimax search with alpha beta pruning, implimented in C/UPC
+
+UPC is a mulicore C dialect the company I interned at (Intrepid, Inc.) worked on the GCC fork for.
+
+If you'd like to compile the source without installing UPC, the original C is in mancalaC/

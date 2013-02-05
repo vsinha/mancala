@@ -1,0 +1,52 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARGNUMBER	mancala.upc	15;"	d	file:
+BOARDSIZE	mancala.upc	9;"	d	file:
+NUM_POTS	mancala.upc	12;"	d	file:
+P0POT	mancala.upc	10;"	d	file:
+P1POT	mancala.upc	11;"	d	file:
+STARTMAXDEPTH	mancala.upc	14;"	d	file:
+START_AMOUNT	mancala.upc	13;"	d	file:
+addToPot	mancala.upc	/^int addToPot(int board[], int currentBowl, int whosTurn)$/;"	f
+best_move	mancala.upc	/^int best_move (int board[], int player, int *best_score)$/;"	f
+checkForWin	mancala.upc	/^int checkForWin(int board[])$/;"	f
+clearPebbles	mancala.upc	/^int clearPebbles(int board[])$/;"	f
+computer	mancala.upc	/^int computer (int board[], int player)$/;"	f
+debug	mancala.upc	/^int debug = 0;$/;"	v
+disp	mancala.upc	/^int disp(int board[])$/;"	f
+do_alpha_beta	mancala.upc	/^int do_alpha_beta = 0;$/;"	v
+do_deepen	mancala.upc	/^int do_deepen = 0;$/;"	v
+do_random	mancala.upc	/^int do_random = 0;$/;"	v
+do_sort	mancala.upc	/^int do_sort = 0;$/;"	v
+do_weighted_scoring	mancala.upc	/^int do_weighted_scoring = 0;$/;"	v
+endGame	mancala.upc	/^int endGame(int board[], int winStatus)$/;"	f
+eval_max	mancala.upc	/^int eval_max (int board[], int player, int level, int *best_move, int alpha, int beta)$/;"	f
+eval_min	mancala.upc	/^int eval_min (int board[], int player, int level, int *best_move, int alpha, int beta)$/;"	f
+getInput	mancala.upc	/^int getInput(int whosTurn, int checkSwitch, int board[])$/;"	f
+getRand	mancala.upc	/^int getRand (int min, int max)$/;"	f
+initArray	mancala.upc	/^void initArray(int board[])$/;"	f
+main	mancala.upc	/^int main(int argc, char *argv[])$/;"	f
+max_depth	mancala.upc	/^int max_depth = STARTMAXDEPTH;$/;"	v
+move	mancala.upc	/^    int move;$/;"	m	struct:move_score_struct	file:
+move	mancala.upc	/^int move(int board[], int whosTurn, int startBowl)\/\/returns 1 to change players, 0 to repeat turn$/;"	f
+move_score_pair_t	mancala.upc	/^typedef struct move_score_struct move_score_pair_t;$/;"	t	typeref:struct:move_score_struct	file:
+move_score_struct	mancala.upc	/^struct move_score_struct$/;"	s	file:
+num_nodes	mancala.upc	/^long int num_nodes = 0; $/;"	v
+print_flag	mancala.upc	/^char print_flag[ARGNUMBER];$/;"	v
+randomMove	mancala.upc	/^int randomMove(int board[])$/;"	f
+score	mancala.upc	/^    int score;$/;"	m	struct:move_score_struct	file:
+shared_answers	mancala.upc	/^shared [] int shared_answers[NUM_POTS];$/;"	v
+shared_board	mancala.upc	/^shared [] int shared_board[BOARDSIZE];$/;"	v
+shared_do_alpha_beta	mancala.upc	/^shared int shared_do_alpha_beta = 1;$/;"	v
+shared_do_deepen	mancala.upc	/^shared int shared_do_deepen = 0;$/;"	v
+shared_do_random	mancala.upc	/^shared int shared_do_random = 1;$/;"	v
+shared_do_sort	mancala.upc	/^shared int shared_do_sort = 1;$/;"	v
+shared_do_weighted_scoring	mancala.upc	/^shared int shared_do_weighted_scoring = 0;$/;"	v
+stats_file	mancala.upc	/^FILE *stats_file;$/;"	v
+sum	mancala.upc	/^int sum(int board[], int start, int finish) \/\/inclusive sum$/;"	f
+turnCounter	mancala.upc	/^int turnCounter = 0;$/;"	v
+wins_file	mancala.upc	/^FILE *wins_file;$/;"	v

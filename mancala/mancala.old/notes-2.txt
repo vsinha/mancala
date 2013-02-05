@@ -1,0 +1,54 @@
+
+global variable
+  long int num_nodes
+
+function best_move (board, player, maximize)
+  num_nodes = 0
+  (score, move) = eval_max (board, player, MAX_DEPTH)
+  return move
+
+frunction eval_max (board, player, level, maximize)
+  num_nodes = num_nodes + 1
+  if level > 0 && !game_over (board) then
+    best_eval = INT_MIN
+    for p = 0 .. npots do
+      if is_valid_move (board, player, p) then
+        copy board to eval_board
+        (ncapture, move_again) = move (eval_board, player, p)
+        if move_again then
+          (this_eval, this_best) = eval_max (eval_board, player, level)
+        else
+          (this_eval, this_best) = eval_min (eval_board, !player, level - 1)
+        end
+        if this_eval > best_eval then
+          best_eval = this_eval
+          best_move = p
+        end
+      end
+    end
+    return (best_eval, best_move)
+  end
+  return stones_in_mancala (board, the_computer)
+
+frunction eval_min (board, player, level, maximize)
+  num_nodes = num_nodes + 1
+  if level > 0 && !game_over (board) then
+    best_eval = INT_MAX
+    for p = 0 .. npots do
+      if is_valid_move (board, player, p) then
+        copy board to eval_board
+        (ncapture, move_again) = move (eval_board, player, p)
+        if move_again then
+          (this_eval, this_best) = eval_min (eval_board, player, level)
+        else
+          (this_eval, this_best) = eval_max (eval_board, !player, level - 1)
+        end
+        if this_eval < best_eval then
+          best_eval = this_eval
+          best_move = p
+        end
+      end
+    end
+    return (best_eval, best_move)
+  end
+  return stones_in_mancala (board, the_computer)

@@ -1,0 +1,396 @@
+#include <stdio.h>
+#include <string.h>
+#define BOARDSIZE      14
+#define P0POT          BOARDSIZE/2 - 1
+#define P1POT          BOARDSIZE - 1
+#define START_AMOUNT   4
+
+int getInput(int whosTurn, int checkSwitch, int board[]);
+int disp(int board[]);
+void initArray(int board[]);
+int checkForWin(int board[]);
+int sum(int board[], int start, int finish);
+int move(int board[], int whosTurn, int startBowl);
+int endGame(int board[], int winStatus);
+int addToPot(int board[], int currentBowl, int whosTurn);
+
+int debug = 0;
+
+int main()
+{
+    int i;
+    int board[BOARDSIZE];
+    int startBowl; //the bowl chosen by the player
+    int whosTurn = 0;  //which player's turn it is
+    int winStatus = 0;
+    int checkSwitch;
+
+    initArray(board);
+
+    while (!winStatus)//main loop
+    {
+        disp(board);
+        if (!checkSwitch)
+        {
+            printf("**Player %d gets another turn!**\n", whosTurn);
+        }
+        startBowl = getInput(whosTurn, checkSwitch, board);
+        checkSwitch = move(board, whosTurn, startBowl);
+        winStatus = checkForWin(board);
+        if (checkSwitch)
+        {
+            whosTurn = !whosTurn;
+        }
+    }
+    
+    disp(board);
+    endGame(board, winStatus);
+    return 0;
+}
+
+int move(int board[], int whosTurn, int startBowl)
+{
+    int i;
+    int value;
+    int currentBowl;
+    int checkSwitch = 1;
+
+    value = board[startBowl];
+    board[startBowl] = 0;
+    currentBowl = ++startBowl;
+
+    while (value)
+    {
+        if ((whosTurn == 0 && currentBowl != P1POT) ||
+            (whosTurn == 1 && currentBowl != P0POT))
+        {
+            board[currentBowl]++;
+            value--;
+        }
+        
+        //calls addToPot
+        if ((board[currentBowl] == 1 && value == 0 && (currentBowl != P0POT && currentBowl != P1POT)))
+        {
+            addToPot(board, currentBowl, whosTurn);
+            // printf("Player %d captured bowl %d!\n", whosTurn, currentBowl);
+        }
+
+        //this gives the player another turn if he puts his last pebble in his pot
+        if ((whosTurn == 0 && currentBowl == P0POT && value == 0) ||
+            (whosTurn == 1 && currentBowl == P1POT && value == 0))
+        {
+            checkSwitch = 0;
+        }
+        
+        //printf("value = %d\ncurrentBowl = %d\n", value, currentBowl);
+        currentBowl++;
+        
+        //loop the numbers around
+        currentBowl = currentBowl % BOARDSIZE;
+        if (currentBowl == BOARDSIZE)
+        {
+            currentBowl = 0;
+        }
+    }
+        
+    return checkSwitch;
+}
+
+int addToPot(int board[], int currentBowl, int whosTurn)
+{
+    if (whosTurn == 0) 
+    {
+        board[P0POT] += board[currentBowl];
+        board[P0POT] += board[BOARDSIZE - currentBowl - 2];
+    }
+    else if (whosTurn == 1)
+    {
+        board[P1POT] += board[currentBowl];
+        board[P1POT] += board[BOARDSIZE - currentBowl - 2];
+    }
+
+    board[currentBowl] = 0;
+    board[BOARDSIZE - currentBowl - 2] = 0;
+
+    return 0;
+}
+
+int endGame(int board[], int winStatus)
+{
+    printf("Player 0: %d\n", board[P0POT]);
+    printf("Player 1: %d\n", board[P1POT]);
+
+    switch (winStatus)
+    {
+        case 1: 
+            printf("Player 0 wins!\n");
+            break;
+        case 2: 
+            printf("Player 1 wins!\n");
+            break;
+        case 3: 
+            printf("Tie game\n");
+            break;
+    }
+
+    return 0;
+}
+
+int getInput(int whosTurn, int checkSwitch, int board[])
+{
+    int startBowl;
+    int error = 1; //allow it to enter the while loop
+    
+    if (checkSwitch)
+    {
+        printf("\n======Player %d move======\n", whosTurn);
+    }
+    while (error)
+    {
+        error = 0;
+        if (whosTurn == 0)
+        {
+            printf("Select a cup of stones from 0-5 to move: ");
+        }
+        else if (whosTurn == 1)
+        {
+            printf("Select a cup of stones from 7-12 to move: ");
+        }
+        
+        if (whosTurn == 0) //human goes first
+        {
+            scanf ("%d", &startBowl);
+        }
+        else
+        {
+            startBowl = best_move(board);
+            printf("\nComputer entered: %d", startBowl);
+        }
+
+        //sanitize inputs
+        if (whosTurn == 0 && ((startBowl < 0 || startBowl >= P0POT) || startBowl == P0POT))
+        {
+            error = 1;
+        }
+        if (whosTurn == 1 && ((startBowl <= P0POT || startBowl >= P1POT) || startBowl == P1POT))
+        {   
+            error = 1;
+        }
+        if (error)
+        {
+            printf("Please enter a valid input...\n");
+        }
+        if (!board[startBowl])
+        {
+            error = 1;
+            printf("This cup is empty...\n");
+        }
+    }
+
+    printf("\n");
+    return startBowl;
+}
+
+int checkForWin(int board[])
+{
+    //returns 1 for player0 win
+    //        2 for player1 win
+    //        3 for tie
+    //        0 for no win
+
+    int checkScores = 0;
+    int status = 0;
+    int i;
+
+    if(sum(board, 0, P0POT-1) == 0)
+    {
+        checkScores = 1;
+    }
+    if(sum(board, P0POT+1, P1POT-1) == 0)
+    {
+        checkScores = 1;
+    }
+
+    if(checkScores)
+    {
+        if (board[P0POT] > board[P1POT])
+        {
+            status = 1;
+        }
+        else if (board[P0POT] < board[P1POT])
+        {
+            status = 2;
+        }
+        else if (board[P0POT] == board[P1POT])
+        {
+            status = 3;
+        }
+    }
+
+    return status;
+}
+
+int sum(int board[], int start, int finish)
+{
+    int i;
+    int total = 0;
+
+    for (i = start; i <= finish; i++)
+    {
+        total += board[i];
+    }
+    return total;
+}
+
+void initArray(int board[])
+{
+    int i;
+
+    for (i = 0; i < BOARDSIZE; i++) //fill the array with pebbles
+    {
+        if (i == P0POT || i == P1POT)
+        {
+            board[i] = 0;
+        }
+        else
+        {
+            board[i] = START_AMOUNT;
+        }
+    }
+}
+
+int disp(int board[])
+{
+    int i;
+    
+    printf("   ");
+    for (i = P1POT-1; i >= P0POT+1; i--)
+    {
+        printf("%4d", i);
+    }
+    printf("   \n");
+
+    printf("|  |");
+    for (i = P1POT-1; i >= P0POT+1; i--)
+    {
+        printf("[%2d]", board[i]);
+    }
+    printf("|  |\n");
+    printf("|%2d|", board[P1POT]);
+    for (i = P1POT-1; i>=P0POT+1; i--)
+    {
+        printf("    ");
+    }
+    printf("|%2d|\n", board[P0POT]);
+    printf("|  |");
+    for (i = 0; i<P0POT; i++)
+    {
+        printf("[%2d]", board[i]);
+    }
+    printf("|  |\n");
+    printf("   ");
+    for (i = 0; i < P0POT; i++)
+    {
+        printf("%4d", i);
+    }
+    printf("\n");
+    return 0;
+}
+
+
+//****computer player code starts here****
+
+int eval(int board[], int player, int i, int do_max, int num_levels, long int *num_nodes);
+
+int best_move(int board[])
+{
+    int max = -1;
+	int move = -1;
+	int num_levels = 8;
+	int do_max = 1;
+    int i;
+    int score;
+    long int num_nodes = 0;
+	for (i = P0POT+1; i<P1POT; i++)//i in valid moves
+	{
+        if(board[i]) //check that hole is not empty
+        {
+		    score = eval(board, 1, i, do_max, num_levels, &num_nodes);
+		    if (score > max)
+	    	{
+			    max = score;
+			    move = i;
+		    }
+	    }
+    }
+    printf ("\n");
+    printf ("best move: %d max score: %d num nodes: %ld\n", move, max, num_nodes);
+    return move;
+}
+
+int eval(int board[], int player, int pot, int maximize, int level, long int *num_nodes)
+{
+	int eval_board[BOARDSIZE];
+    int score;
+    memcpy(eval_board, board, sizeof(int) * BOARDSIZE);
+    if (level > 0)
+    {
+        int switch_player;
+        ++*num_nodes;
+        switch_player = move (eval_board, player, pot);
+        if (debug)
+        {
+            printf ("Evaluating (level %d)...\n", level);
+            disp(eval_board);
+        }
+        if (!checkForWin(eval_board))
+        {
+            const int next_player = switch_player ? !player : player;
+            const int next_maximize = switch_player ? !maximize : maximize;
+            const int next_level = switch_player ? level - 1 : level;
+            const int p_start = (next_player == 0) ? 0 : P0POT + 1;
+            const int p_fin = (next_player == 0) ? P0POT : P1POT;
+            int p;
+            if (maximize)
+            {
+                int max = -1;
+                for (p = p_start; p < p_fin; ++p)
+                {
+                    if(eval_board[p])
+                    {
+                        score = eval(eval_board, next_player, p, next_maximize, next_level, num_nodes);
+                        if (score > max)
+                        {
+                            max = score;
+                        }
+                    }
+                }
+                if (debug) printf ("max: %d\n", max);
+                return max;
+            }
+            else
+            {
+                int min = 1000000;
+                for (p = p_start; p < p_fin; ++p)
+                {
+                    if(eval_board[p])
+                    {
+                        score = eval(eval_board, next_player, p, next_maximize, next_level, num_nodes);
+                        if (score < min)
+                        {
+                            min = score;
+                        }
+                    }
+                }
+                if (debug) printf ("min: %d\n", min);
+                return min;
+            }
+		}
+        else
+        {
+            if (debug) printf ("Terminal position\n");
+        }
+    }
+    if (debug) printf("eval score: %d, level: %d\n", eval_board[P1POT], level);
+    return eval_board[P1POT];
+}

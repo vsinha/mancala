@@ -1,0 +1,553 @@
+alpha-beta: yes | deepen: yes | random-opponent: yes | sort: yes | weighted-score: no
+predict: 28 | move: 9 | depth: 11 | nodes: 5189296 | elapsed: 0.387 | total: 0.691
+predict: 30 | move: 10 | depth: 12 | nodes: 7267434 | elapsed: 0.248 | total: 1.02
+predict: 30 | move: 7 | depth: 11 | nodes: 5655610 | elapsed: 0.438 | total: 0.627
+predict: 32 | move: 8 | depth: 12 | nodes: 5207877 | elapsed: 0.296 | total: 0.696
+predict: 33 | move: 9 | depth: 11 | nodes: 3605113 | elapsed: 0.173 | total: 0.437
+predict: 34 | move: 8 | depth: 12 | nodes: 2445294 | elapsed: 0.108 | total: 0.291
+predict: 32 | move: 10 | depth: 13 | nodes: 3395812 | elapsed: 0.145 | total: 0.365
+predict: 31 | move: 12 | depth: 15 | nodes: 5812655 | elapsed: 0.313 | total: 0.72
+predict: 33 | move: 7 | depth: 14 | nodes: 5470654 | elapsed: 0.441 | total: 0.627
+predict: 31 | move: 7 | depth: 13 | nodes: 3238028 | elapsed: 0.201 | total: 0.402
+predict: 30 | move: 10 | depth: 13 | nodes: 3309444 | elapsed: 0.223 | total: 0.428
+predict: 36 | move: 9 | depth: 14 | nodes: 5129734 | elapsed: 0.454 | total: 0.579
+predict: 41 | move: 8 | depth: 15 | nodes: 4673922 | elapsed: 0.519 | total: 0.538
+predict: 40 | move: 7 | depth: 14 | nodes: 6836142 | elapsed: 0.311 | total: 0.644
+totals | nodes: 67237015 | elapsed: 4.26 | think: 8.06 | nodes/sec: 1.58e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.00106 | total: 0.00213
+predict: 28 | move: 7 | depth: 5 | nodes: 7270 | elapsed: 0.000761 | total: 0.00167
+predict: 28 | move: 10 | depth: 5 | nodes: 4491 | elapsed: 0.000232 | total: 0.000666
+predict: 27 | move: 8 | depth: 5 | nodes: 4028 | elapsed: 0.00021 | total: 0.000614
+predict: 17 | move: 10 | depth: 5 | nodes: 3327 | elapsed: 0.000141 | total: 0.000474
+predict: 24 | move: 11 | depth: 5 | nodes: 1104 | elapsed: 5.79e-05 | total: 0.00014
+predict: 33 | move: 7 | depth: 5 | nodes: 1778 | elapsed: 5.36e-05 | total: 0.000223
+predict: 36 | move: 7 | depth: 5 | nodes: 2264 | elapsed: 6.25e-05 | total: 0.000265
+predict: 36 | move: 11 | depth: 5 | nodes: 2208 | elapsed: 6.26e-05 | total: 0.000261
+predict: 36 | move: 8 | depth: 5 | nodes: 1618 | elapsed: 6.3e-05 | total: 0.000189
+predict: 30 | move: 11 | depth: 5 | nodes: 1883 | elapsed: 8.44e-05 | total: 0.000213
+predict: 39 | move: 7 | depth: 5 | nodes: 3311 | elapsed: 0.000254 | total: 0.000405
+predict: 37 | move: 10 | depth: 5 | nodes: 1238 | elapsed: 6.87e-05 | total: 0.000128
+predict: 40 | move: 11 | depth: 5 | nodes: 850 | elapsed: 3.12e-05 | total: 9.72e-05
+predict: 43 | move: 8 | depth: 5 | nodes: 3297 | elapsed: 0.000331 | total: 0.000361
+totals | nodes: 45045 | elapsed: 0.00347 | think: 0.00784 | nodes/sec: 1.3e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.00102 | total: 0.00205
+predict: 26 | move: 8 | depth: 5 | nodes: 9719 | elapsed: 0.00133 | total: 0.00217
+predict: 27 | move: 9 | depth: 5 | nodes: 3978 | elapsed: 0.000165 | total: 0.000507
+predict: 34 | move: 7 | depth: 5 | nodes: 6675 | elapsed: 0.000219 | total: 0.000876
+predict: 34 | move: 10 | depth: 5 | nodes: 3032 | elapsed: 0.000106 | total: 0.000392
+predict: 37 | move: 8 | depth: 5 | nodes: 1712 | elapsed: 0.000105 | total: 0.00022
+predict: 36 | move: 7 | depth: 5 | nodes: 2119 | elapsed: 7.86e-05 | total: 0.000259
+predict: 39 | move: 7 | depth: 5 | nodes: 1567 | elapsed: 5e-05 | total: 0.000192
+predict: 37 | move: 8 | depth: 5 | nodes: 1825 | elapsed: 5.6e-05 | total: 0.000226
+predict: 35 | move: 9 | depth: 5 | nodes: 1336 | elapsed: 4.69e-05 | total: 0.00017
+predict: 32 | move: 10 | depth: 5 | nodes: 1103 | elapsed: 5.15e-05 | total: 0.000127
+predict: 32 | move: 11 | depth: 5 | nodes: 577 | elapsed: 2.73e-05 | total: 6.3e-05
+predict: 32 | move: 7 | depth: 5 | nodes: 1250 | elapsed: 3.98e-05 | total: 0.000128
+predict: 34 | move: 7 | depth: 5 | nodes: 1169 | elapsed: 4.61e-05 | total: 0.000117
+predict: 34 | move: 8 | depth: 5 | nodes: 837 | elapsed: 4.23e-05 | total: 8.94e-05
+predict: 34 | move: 11 | depth: 5 | nodes: 9427 | elapsed: 0.000738 | total: 0.00077
+predict: 38 | move: 9 | depth: 5 | nodes: 2879 | elapsed: 0.000171 | total: 0.000253
+predict: 38 | move: 10 | depth: 5 | nodes: 1964 | elapsed: 9.95e-05 | total: 0.000161
+predict: 38 | move: 11 | depth: 5 | nodes: 1317 | elapsed: 6.92e-05 | total: 0.000109
+predict: 37 | move: 7 | depth: 5 | nodes: 468 | elapsed: 2.66e-05 | total: 3.75e-05
+predict: 37 | move: 8 | depth: 5 | nodes: 351 | elapsed: 2.55e-05 | total: 3.01e-05
+totals | nodes: 59683 | elapsed: 0.00451 | think: 0.00895 | nodes/sec: 1.32e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.000975 | total: 0.00205
+predict: 26 | move: 8 | depth: 5 | nodes: 9719 | elapsed: 0.0014 | total: 0.00223
+predict: 27 | move: 9 | depth: 5 | nodes: 3978 | elapsed: 0.000166 | total: 0.000506
+predict: 34 | move: 7 | depth: 5 | nodes: 6675 | elapsed: 0.000219 | total: 0.000884
+predict: 34 | move: 10 | depth: 5 | nodes: 3032 | elapsed: 0.000106 | total: 0.000397
+predict: 37 | move: 8 | depth: 5 | nodes: 1712 | elapsed: 0.000105 | total: 0.000221
+predict: 36 | move: 7 | depth: 5 | nodes: 2119 | elapsed: 7.88e-05 | total: 0.000262
+predict: 39 | move: 7 | depth: 5 | nodes: 1567 | elapsed: 4.96e-05 | total: 0.000192
+predict: 37 | move: 8 | depth: 5 | nodes: 1825 | elapsed: 5.59e-05 | total: 0.000228
+predict: 35 | move: 9 | depth: 5 | nodes: 1336 | elapsed: 4.86e-05 | total: 0.000171
+predict: 32 | move: 10 | depth: 5 | nodes: 1103 | elapsed: 5.29e-05 | total: 0.000128
+predict: 32 | move: 11 | depth: 5 | nodes: 577 | elapsed: 2.73e-05 | total: 6.3e-05
+predict: 32 | move: 7 | depth: 5 | nodes: 1250 | elapsed: 3.99e-05 | total: 0.00013
+predict: 34 | move: 7 | depth: 5 | nodes: 1169 | elapsed: 4.59e-05 | total: 0.000119
+predict: 34 | move: 8 | depth: 5 | nodes: 837 | elapsed: 4.24e-05 | total: 9.06e-05
+predict: 34 | move: 11 | depth: 5 | nodes: 9427 | elapsed: 0.000736 | total: 0.000769
+predict: 38 | move: 9 | depth: 5 | nodes: 2879 | elapsed: 0.000171 | total: 0.000254
+predict: 38 | move: 10 | depth: 5 | nodes: 1964 | elapsed: 0.000103 | total: 0.000166
+predict: 38 | move: 11 | depth: 5 | nodes: 1317 | elapsed: 6.94e-05 | total: 0.00011
+predict: 37 | move: 7 | depth: 5 | nodes: 468 | elapsed: 2.67e-05 | total: 3.79e-05
+predict: 37 | move: 8 | depth: 5 | nodes: 351 | elapsed: 2.53e-05 | total: 3.04e-05
+totals | nodes: 59683 | elapsed: 0.00454 | think: 0.00904 | nodes/sec: 1.31e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.000993 | total: 0.00206
+predict: 26 | move: 7 | depth: 5 | nodes: 3370 | elapsed: 0.000389 | total: 0.00104
+predict: 30 | move: 8 | depth: 5 | nodes: 5920 | elapsed: 0.000255 | total: 0.000967
+predict: 27 | move: 7 | depth: 5 | nodes: 6970 | elapsed: 0.000234 | total: 0.000952
+predict: 21 | move: 11 | depth: 5 | nodes: 3930 | elapsed: 0.000149 | total: 0.000515
+predict: 33 | move: 10 | depth: 5 | nodes: 4771 | elapsed: 0.000176 | total: 0.000617
+predict: 33 | move: 11 | depth: 5 | nodes: 2998 | elapsed: 0.000105 | total: 0.000386
+predict: 31 | move: 7 | depth: 5 | nodes: 1890 | elapsed: 8e-05 | total: 0.000223
+predict: 36 | move: 7 | depth: 5 | nodes: 2371 | elapsed: 7.19e-05 | total: 0.000273
+predict: 36 | move: 11 | depth: 5 | nodes: 2089 | elapsed: 6.02e-05 | total: 0.000248
+predict: 36 | move: 8 | depth: 5 | nodes: 1684 | elapsed: 5.82e-05 | total: 0.0002
+predict: 30 | move: 11 | depth: 5 | nodes: 1628 | elapsed: 7.18e-05 | total: 0.00019
+predict: 31 | move: 12 | depth: 5 | nodes: 1180 | elapsed: 5.73e-05 | total: 0.000131
+predict: 31 | move: 8 | depth: 5 | nodes: 4493 | elapsed: 0.000303 | total: 0.000456
+predict: 35 | move: 7 | depth: 5 | nodes: 1750 | elapsed: 0.0001 | total: 0.000189
+predict: 37 | move: 10 | depth: 5 | nodes: 1085 | elapsed: 4.64e-05 | total: 9.19e-05
+predict: 37 | move: 12 | depth: 5 | nodes: 699 | elapsed: 2.69e-05 | total: 4.87e-05
+predict: 37 | move: 11 | depth: 5 | nodes: 427 | elapsed: 1.76e-05 | total: 2.74e-05
+predict: 37 | move: 9 | depth: 5 | nodes: 223 | elapsed: 1.05e-05 | total: 1.42e-05
+predict: 36 | move: 12 | depth: 5 | nodes: 197 | elapsed: 8.68e-06 | total: 1.53e-05
+predict: 37 | move: 11 | depth: 5 | nodes: 42 | elapsed: 3.78e-06 | total: 3.64e-06
+totals | nodes: 54095 | elapsed: 0.00322 | think: 0.00864 | nodes/sec: 1.68e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.000994 | total: 0.00216
+predict: 26 | move: 7 | depth: 5 | nodes: 3370 | elapsed: 0.000354 | total: 0.00101
+predict: 30 | move: 8 | depth: 5 | nodes: 5920 | elapsed: 0.000255 | total: 0.00085
+predict: 27 | move: 7 | depth: 5 | nodes: 6970 | elapsed: 0.000244 | total: 0.000962
+predict: 21 | move: 11 | depth: 5 | nodes: 3930 | elapsed: 0.00015 | total: 0.000519
+predict: 33 | move: 10 | depth: 5 | nodes: 4771 | elapsed: 0.000173 | total: 0.000626
+predict: 33 | move: 11 | depth: 5 | nodes: 2998 | elapsed: 0.000104 | total: 0.000382
+predict: 31 | move: 7 | depth: 5 | nodes: 1890 | elapsed: 8.04e-05 | total: 0.000226
+predict: 36 | move: 7 | depth: 5 | nodes: 2371 | elapsed: 7.2e-05 | total: 0.000276
+predict: 36 | move: 11 | depth: 5 | nodes: 2089 | elapsed: 6.13e-05 | total: 0.000252
+predict: 36 | move: 8 | depth: 5 | nodes: 1684 | elapsed: 6.05e-05 | total: 0.000204
+predict: 30 | move: 11 | depth: 5 | nodes: 1628 | elapsed: 7.19e-05 | total: 0.000191
+predict: 31 | move: 12 | depth: 5 | nodes: 1180 | elapsed: 5.74e-05 | total: 0.000132
+predict: 31 | move: 8 | depth: 5 | nodes: 4493 | elapsed: 0.000308 | total: 0.000463
+predict: 35 | move: 7 | depth: 5 | nodes: 1750 | elapsed: 9.66e-05 | total: 0.000186
+predict: 37 | move: 10 | depth: 5 | nodes: 1085 | elapsed: 4.64e-05 | total: 9.3e-05
+predict: 37 | move: 12 | depth: 5 | nodes: 699 | elapsed: 2.68e-05 | total: 4.87e-05
+predict: 37 | move: 11 | depth: 5 | nodes: 427 | elapsed: 1.76e-05 | total: 2.74e-05
+predict: 37 | move: 9 | depth: 5 | nodes: 223 | elapsed: 1.07e-05 | total: 1.42e-05
+predict: 36 | move: 12 | depth: 5 | nodes: 197 | elapsed: 8.66e-06 | total: 1.54e-05
+predict: 37 | move: 11 | depth: 5 | nodes: 42 | elapsed: 3.75e-06 | total: 3.71e-06
+totals | nodes: 54095 | elapsed: 0.0032 | think: 0.00863 | nodes/sec: 1.69e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.00097 | total: 0.00206
+predict: 27 | move: 9 | depth: 5 | nodes: 11268 | elapsed: 0.00111 | total: 0.00248
+predict: 29 | move: 7 | depth: 5 | nodes: 7403 | elapsed: 0.000608 | total: 0.00102
+predict: 27 | move: 10 | depth: 5 | nodes: 4297 | elapsed: 0.000169 | total: 0.000603
+predict: 36 | move: 7 | depth: 5 | nodes: 2409 | elapsed: 6.9e-05 | total: 0.000325
+predict: 37 | move: 7 | depth: 5 | nodes: 2968 | elapsed: 0.000104 | total: 0.000399
+predict: 39 | move: 7 | depth: 5 | nodes: 2967 | elapsed: 0.000106 | total: 0.000401
+predict: 40 | move: 7 | depth: 5 | nodes: 2156 | elapsed: 8.46e-05 | total: 0.000299
+predict: 38 | move: 7 | depth: 5 | nodes: 1997 | elapsed: 6.46e-05 | total: 0.000262
+predict: 41 | move: 9 | depth: 5 | nodes: 1436 | elapsed: 5.82e-05 | total: 0.000194
+totals | nodes: 43279 | elapsed: 0.00334 | think: 0.00804 | nodes/sec: 1.29e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.000975 | total: 0.00205
+predict: 27 | move: 9 | depth: 5 | nodes: 11268 | elapsed: 0.00108 | total: 0.00241
+predict: 29 | move: 7 | depth: 5 | nodes: 7403 | elapsed: 0.000605 | total: 0.00102
+predict: 27 | move: 10 | depth: 5 | nodes: 4297 | elapsed: 0.000168 | total: 0.000602
+predict: 36 | move: 7 | depth: 5 | nodes: 2409 | elapsed: 6.88e-05 | total: 0.000325
+predict: 37 | move: 7 | depth: 5 | nodes: 2968 | elapsed: 0.000104 | total: 0.000397
+predict: 39 | move: 7 | depth: 5 | nodes: 2967 | elapsed: 0.000105 | total: 0.000401
+predict: 40 | move: 7 | depth: 5 | nodes: 2156 | elapsed: 8.47e-05 | total: 0.000299
+predict: 38 | move: 7 | depth: 5 | nodes: 1997 | elapsed: 6.47e-05 | total: 0.00026
+predict: 41 | move: 9 | depth: 5 | nodes: 1436 | elapsed: 5.81e-05 | total: 0.000194
+totals | nodes: 43279 | elapsed: 0.00332 | think: 0.00796 | nodes/sec: 1.3e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.00097 | total: 0.00205
+predict: 26 | move: 7 | depth: 5 | nodes: 3370 | elapsed: 0.000368 | total: 0.00102
+predict: 29 | move: 8 | depth: 5 | nodes: 4818 | elapsed: 0.000237 | total: 0.000899
+predict: 33 | move: 10 | depth: 5 | nodes: 8813 | elapsed: 0.000316 | total: 0.00124
+predict: 25 | move: 9 | depth: 5 | nodes: 6280 | elapsed: 0.000229 | total: 0.000859
+predict: 33 | move: 7 | depth: 5 | nodes: 3570 | elapsed: 0.000206 | total: 0.00053
+predict: 34 | move: 7 | depth: 5 | nodes: 1715 | elapsed: 7.23e-05 | total: 0.000206
+predict: 39 | move: 7 | depth: 5 | nodes: 1567 | elapsed: 4.74e-05 | total: 0.000184
+predict: 37 | move: 10 | depth: 5 | nodes: 1147 | elapsed: 6.03e-05 | total: 0.000125
+predict: 27 | move: 8 | depth: 5 | nodes: 457 | elapsed: 2.05e-05 | total: 3.61e-05
+predict: 27 | move: 9 | depth: 5 | nodes: 462 | elapsed: 2.11e-05 | total: 3.91e-05
+predict: 23 | move: 12 | depth: 5 | nodes: 310 | elapsed: 1.27e-05 | total: 2.45e-05
+predict: 24 | move: 8 | depth: 5 | nodes: 343 | elapsed: 9.56e-06 | total: 2.68e-05
+predict: 25 | move: 10 | depth: 5 | nodes: 125 | elapsed: 6.28e-06 | total: 1.02e-05
+predict: 26 | move: 11 | depth: 5 | nodes: 55 | elapsed: 4.32e-06 | total: 4.92e-06
+predict: 26 | move: 12 | depth: 5 | nodes: 29 | elapsed: 3.01e-06 | total: 2.72e-06
+predict: 25 | move: 7 | depth: 5 | nodes: 12 | elapsed: 1.93e-06 | total: 9.45e-07
+predict: 26 | move: 7 | depth: 5 | nodes: 30 | elapsed: 3.1e-06 | total: 2.34e-06
+predict: 26 | move: 8 | depth: 5 | nodes: 17 | elapsed: 3e-06 | total: 1.19e-06
+predict: 27 | move: 9 | depth: 5 | nodes: 22 | elapsed: 3.05e-06 | total: 1.98e-06
+predict: 27 | move: 10 | depth: 5 | nodes: 8 | elapsed: 2.71e-06 | total: 7.53e-07
+totals | nodes: 39528 | elapsed: 0.0026 | think: 0.00727 | nodes/sec: 1.52e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.000979 | total: 0.00205
+predict: 26 | move: 7 | depth: 5 | nodes: 3370 | elapsed: 0.000368 | total: 0.00102
+predict: 29 | move: 8 | depth: 5 | nodes: 4818 | elapsed: 0.000196 | total: 0.00074
+predict: 33 | move: 10 | depth: 5 | nodes: 8813 | elapsed: 0.000316 | total: 0.00124
+predict: 25 | move: 9 | depth: 5 | nodes: 6280 | elapsed: 0.000229 | total: 0.000859
+predict: 33 | move: 7 | depth: 5 | nodes: 3570 | elapsed: 0.000207 | total: 0.00053
+predict: 34 | move: 7 | depth: 5 | nodes: 1715 | elapsed: 7.21e-05 | total: 0.000207
+predict: 39 | move: 7 | depth: 5 | nodes: 1567 | elapsed: 4.73e-05 | total: 0.000184
+predict: 37 | move: 10 | depth: 5 | nodes: 1147 | elapsed: 5.96e-05 | total: 0.000124
+predict: 27 | move: 8 | depth: 5 | nodes: 457 | elapsed: 2.05e-05 | total: 3.62e-05
+predict: 27 | move: 9 | depth: 5 | nodes: 462 | elapsed: 2.1e-05 | total: 3.92e-05
+predict: 23 | move: 12 | depth: 5 | nodes: 310 | elapsed: 1.26e-05 | total: 2.45e-05
+predict: 24 | move: 8 | depth: 5 | nodes: 343 | elapsed: 9.64e-06 | total: 2.69e-05
+predict: 25 | move: 10 | depth: 5 | nodes: 125 | elapsed: 6.4e-06 | total: 1.02e-05
+predict: 26 | move: 11 | depth: 5 | nodes: 55 | elapsed: 4.21e-06 | total: 4.94e-06
+predict: 26 | move: 12 | depth: 5 | nodes: 29 | elapsed: 2.85e-06 | total: 2.74e-06
+predict: 25 | move: 7 | depth: 5 | nodes: 12 | elapsed: 2.22e-06 | total: 9.48e-07
+predict: 26 | move: 7 | depth: 5 | nodes: 30 | elapsed: 3e-06 | total: 2.33e-06
+predict: 26 | move: 8 | depth: 5 | nodes: 17 | elapsed: 2.68e-06 | total: 1.19e-06
+predict: 27 | move: 9 | depth: 5 | nodes: 22 | elapsed: 2.91e-06 | total: 1.99e-06
+predict: 27 | move: 10 | depth: 5 | nodes: 8 | elapsed: 2.59e-06 | total: 7.57e-07
+totals | nodes: 39528 | elapsed: 0.00256 | think: 0.00711 | nodes/sec: 1.54e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.00099 | total: 0.00207
+predict: 28 | move: 7 | depth: 5 | nodes: 7270 | elapsed: 0.000779 | total: 0.00166
+predict: 28 | move: 10 | depth: 5 | nodes: 4491 | elapsed: 0.000232 | total: 0.000667
+predict: 27 | move: 8 | depth: 5 | nodes: 4028 | elapsed: 0.00021 | total: 0.000614
+predict: 17 | move: 10 | depth: 5 | nodes: 3327 | elapsed: 0.000144 | total: 0.000479
+predict: 24 | move: 11 | depth: 5 | nodes: 1104 | elapsed: 5.81e-05 | total: 0.00014
+predict: 25 | move: 9 | depth: 5 | nodes: 537 | elapsed: 3.39e-05 | total: 6.18e-05
+predict: 31 | move: 12 | depth: 5 | nodes: 1056 | elapsed: 4.85e-05 | total: 0.000117
+predict: 39 | move: 10 | depth: 5 | nodes: 1932 | elapsed: 5.93e-05 | total: 0.000157
+predict: 43 | move: 9 | depth: 5 | nodes: 718 | elapsed: 1.77e-05 | total: 5.88e-05
+predict: 44 | move: 7 | depth: 5 | nodes: 183 | elapsed: 8.98e-06 | total: 1.38e-05
+totals | nodes: 31024 | elapsed: 0.00258 | think: 0.00603 | nodes/sec: 1.2e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.000974 | total: 0.00205
+predict: 28 | move: 7 | depth: 5 | nodes: 7270 | elapsed: 0.000881 | total: 0.0017
+predict: 28 | move: 10 | depth: 5 | nodes: 4491 | elapsed: 0.000231 | total: 0.000662
+predict: 27 | move: 8 | depth: 5 | nodes: 4028 | elapsed: 0.000211 | total: 0.000617
+predict: 17 | move: 10 | depth: 5 | nodes: 3327 | elapsed: 0.000148 | total: 0.000481
+predict: 24 | move: 11 | depth: 5 | nodes: 1104 | elapsed: 5.81e-05 | total: 0.00014
+predict: 25 | move: 9 | depth: 5 | nodes: 537 | elapsed: 3.41e-05 | total: 6.19e-05
+predict: 31 | move: 12 | depth: 5 | nodes: 1056 | elapsed: 4.68e-05 | total: 0.000116
+predict: 39 | move: 10 | depth: 5 | nodes: 1932 | elapsed: 5.94e-05 | total: 0.000155
+predict: 43 | move: 9 | depth: 5 | nodes: 718 | elapsed: 1.77e-05 | total: 5.83e-05
+predict: 44 | move: 7 | depth: 5 | nodes: 183 | elapsed: 9.15e-06 | total: 1.37e-05
+totals | nodes: 31024 | elapsed: 0.00267 | think: 0.00606 | nodes/sec: 1.16e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.000972 | total: 0.00205
+predict: 28 | move: 7 | depth: 5 | nodes: 7270 | elapsed: 0.000864 | total: 0.0017
+predict: 28 | move: 10 | depth: 5 | nodes: 4491 | elapsed: 0.000231 | total: 0.000666
+predict: 33 | move: 8 | depth: 5 | nodes: 6846 | elapsed: 0.000293 | total: 0.000997
+predict: 25 | move: 7 | depth: 5 | nodes: 6195 | elapsed: 0.000217 | total: 0.000838
+predict: 25 | move: 10 | depth: 5 | nodes: 1671 | elapsed: 7.69e-05 | total: 0.0002
+predict: 33 | move: 11 | depth: 5 | nodes: 634 | elapsed: 3.31e-05 | total: 7.46e-05
+predict: 34 | move: 9 | depth: 5 | nodes: 322 | elapsed: 2.39e-05 | total: 3.44e-05
+predict: 33 | move: 12 | depth: 5 | nodes: 207 | elapsed: 1.33e-05 | total: 1.86e-05
+predict: 34 | move: 11 | depth: 5 | nodes: 53 | elapsed: 4.93e-06 | total: 4.79e-06
+predict: 35 | move: 7 | depth: 5 | nodes: 60 | elapsed: 5.67e-06 | total: 4.44e-06
+predict: 39 | move: 9 | depth: 5 | nodes: 54 | elapsed: 4.93e-06 | total: 4.76e-06
+predict: 38 | move: 8 | depth: 5 | nodes: 1 | elapsed: 2.12e-06 | total: 2.17e-07
+totals | nodes: 34182 | elapsed: 0.00274 | think: 0.00659 | nodes/sec: 1.25e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.000975 | total: 0.00205
+predict: 28 | move: 7 | depth: 5 | nodes: 7270 | elapsed: 0.00093 | total: 0.00175
+predict: 28 | move: 10 | depth: 5 | nodes: 4491 | elapsed: 0.000232 | total: 0.000667
+predict: 33 | move: 8 | depth: 5 | nodes: 6846 | elapsed: 0.000294 | total: 0.000984
+predict: 25 | move: 7 | depth: 5 | nodes: 6195 | elapsed: 0.000218 | total: 0.000838
+predict: 25 | move: 10 | depth: 5 | nodes: 1671 | elapsed: 7.69e-05 | total: 0.0002
+predict: 33 | move: 11 | depth: 5 | nodes: 634 | elapsed: 3.31e-05 | total: 7.47e-05
+predict: 34 | move: 9 | depth: 5 | nodes: 322 | elapsed: 2.37e-05 | total: 3.41e-05
+predict: 33 | move: 12 | depth: 5 | nodes: 207 | elapsed: 1.31e-05 | total: 1.86e-05
+predict: 34 | move: 11 | depth: 5 | nodes: 53 | elapsed: 5.06e-06 | total: 4.9e-06
+predict: 35 | move: 7 | depth: 5 | nodes: 60 | elapsed: 5.54e-06 | total: 4.51e-06
+predict: 39 | move: 9 | depth: 5 | nodes: 54 | elapsed: 4.97e-06 | total: 4.84e-06
+predict: 38 | move: 8 | depth: 5 | nodes: 1 | elapsed: 2.04e-06 | total: 2.02e-07
+totals | nodes: 34182 | elapsed: 0.00281 | think: 0.00663 | nodes/sec: 1.22e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.000973 | total: 0.00205
+predict: 28 | move: 7 | depth: 5 | nodes: 7270 | elapsed: 0.000962 | total: 0.00178
+predict: 28 | move: 10 | depth: 5 | nodes: 4491 | elapsed: 0.000231 | total: 0.000666
+predict: 33 | move: 8 | depth: 5 | nodes: 6846 | elapsed: 0.000293 | total: 0.000983
+predict: 25 | move: 7 | depth: 5 | nodes: 6195 | elapsed: 0.000217 | total: 0.000837
+predict: 25 | move: 10 | depth: 5 | nodes: 1671 | elapsed: 7.68e-05 | total: 0.0002
+predict: 33 | move: 11 | depth: 5 | nodes: 634 | elapsed: 3.31e-05 | total: 7.45e-05
+predict: 34 | move: 9 | depth: 5 | nodes: 322 | elapsed: 2.38e-05 | total: 3.43e-05
+predict: 33 | move: 12 | depth: 5 | nodes: 207 | elapsed: 1.32e-05 | total: 1.86e-05
+predict: 34 | move: 11 | depth: 5 | nodes: 53 | elapsed: 4.9e-06 | total: 4.83e-06
+predict: 35 | move: 7 | depth: 5 | nodes: 60 | elapsed: 5.39e-06 | total: 4.47e-06
+predict: 39 | move: 9 | depth: 5 | nodes: 54 | elapsed: 5.1e-06 | total: 4.79e-06
+predict: 38 | move: 8 | depth: 5 | nodes: 1 | elapsed: 2.32e-06 | total: 1.93e-07
+totals | nodes: 34182 | elapsed: 0.00284 | think: 0.00666 | nodes/sec: 1.2e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.00097 | total: 0.00205
+predict: 27 | move: 9 | depth: 5 | nodes: 11268 | elapsed: 0.0011 | total: 0.00244
+predict: 29 | move: 7 | depth: 5 | nodes: 7403 | elapsed: 0.000605 | total: 0.00102
+predict: 26 | move: 7 | depth: 5 | nodes: 7214 | elapsed: 0.000194 | total: 0.000966
+predict: 30 | move: 7 | depth: 5 | nodes: 8801 | elapsed: 0.000818 | total: 0.00128
+predict: 27 | move: 10 | depth: 5 | nodes: 20381 | elapsed: 0.00248 | total: 0.00284
+predict: 27 | move: 8 | depth: 5 | nodes: 1650 | elapsed: 6.17e-05 | total: 0.00021
+predict: 34 | move: 7 | depth: 5 | nodes: 2004 | elapsed: 7.24e-05 | total: 0.000264
+predict: 33 | move: 7 | depth: 5 | nodes: 1929 | elapsed: 7.11e-05 | total: 0.000248
+predict: 35 | move: 7 | depth: 5 | nodes: 2025 | elapsed: 7.99e-05 | total: 0.000244
+predict: 31 | move: 9 | depth: 5 | nodes: 1988 | elapsed: 8.35e-05 | total: 0.000235
+predict: 31 | move: 10 | depth: 5 | nodes: 1441 | elapsed: 0.0001 | total: 0.000168
+predict: 32 | move: 8 | depth: 5 | nodes: 3360 | elapsed: 0.000286 | total: 0.000354
+predict: 33 | move: 7 | depth: 5 | nodes: 1098 | elapsed: 4.16e-05 | total: 0.000124
+predict: 32 | move: 9 | depth: 5 | nodes: 785 | elapsed: 3.19e-05 | total: 8.31e-05
+predict: 33 | move: 8 | depth: 5 | nodes: 909 | elapsed: 3.65e-05 | total: 9.56e-05
+predict: 34 | move: 9 | depth: 5 | nodes: 735 | elapsed: 3.39e-05 | total: 7.81e-05
+totals | nodes: 79369 | elapsed: 0.00706 | think: 0.0127 | nodes/sec: 1.12e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.000984 | total: 0.00181
+predict: 27 | move: 9 | depth: 5 | nodes: 11268 | elapsed: 0.00115 | total: 0.00254
+predict: 29 | move: 7 | depth: 5 | nodes: 7403 | elapsed: 0.000605 | total: 0.00102
+predict: 26 | move: 7 | depth: 5 | nodes: 7214 | elapsed: 0.000194 | total: 0.000966
+predict: 30 | move: 7 | depth: 5 | nodes: 8801 | elapsed: 0.000818 | total: 0.00128
+predict: 27 | move: 10 | depth: 5 | nodes: 20381 | elapsed: 0.00248 | total: 0.00284
+predict: 27 | move: 8 | depth: 5 | nodes: 1650 | elapsed: 6.13e-05 | total: 0.000211
+predict: 34 | move: 7 | depth: 5 | nodes: 2004 | elapsed: 7.25e-05 | total: 0.000272
+predict: 33 | move: 7 | depth: 5 | nodes: 1929 | elapsed: 7.11e-05 | total: 0.000248
+predict: 35 | move: 7 | depth: 5 | nodes: 2025 | elapsed: 7.97e-05 | total: 0.000244
+predict: 31 | move: 9 | depth: 5 | nodes: 1988 | elapsed: 8.37e-05 | total: 0.000235
+predict: 31 | move: 10 | depth: 5 | nodes: 1441 | elapsed: 0.0001 | total: 0.000168
+predict: 32 | move: 8 | depth: 5 | nodes: 3360 | elapsed: 0.000282 | total: 0.00035
+predict: 33 | move: 7 | depth: 5 | nodes: 1098 | elapsed: 4.35e-05 | total: 0.000126
+predict: 32 | move: 9 | depth: 5 | nodes: 785 | elapsed: 5.83e-05 | total: 8.31e-05
+predict: 33 | move: 8 | depth: 5 | nodes: 909 | elapsed: 3.65e-05 | total: 9.56e-05
+predict: 34 | move: 9 | depth: 5 | nodes: 735 | elapsed: 3.41e-05 | total: 7.83e-05
+totals | nodes: 79369 | elapsed: 0.00716 | think: 0.0126 | nodes/sec: 1.11e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.000972 | total: 0.00181
+predict: 26 | move: 8 | depth: 5 | nodes: 9719 | elapsed: 0.00137 | total: 0.0022
+predict: 27 | move: 9 | depth: 5 | nodes: 3978 | elapsed: 0.000168 | total: 0.000509
+predict: 31 | move: 7 | depth: 5 | nodes: 2532 | elapsed: 0.000116 | total: 0.000342
+predict: 32 | move: 7 | depth: 5 | nodes: 3282 | elapsed: 0.000113 | total: 0.000429
+predict: 34 | move: 7 | depth: 5 | nodes: 2368 | elapsed: 0.000102 | total: 0.000319
+predict: 32 | move: 10 | depth: 5 | nodes: 2504 | elapsed: 0.000113 | total: 0.00034
+predict: 33 | move: 8 | depth: 5 | nodes: 1800 | elapsed: 6.46e-05 | total: 0.000231
+predict: 31 | move: 9 | depth: 5 | nodes: 805 | elapsed: 3.24e-05 | total: 9.64e-05
+predict: 33 | move: 7 | depth: 5 | nodes: 865 | elapsed: 3.78e-05 | total: 0.000101
+predict: 33 | move: 10 | depth: 5 | nodes: 737 | elapsed: 3.16e-05 | total: 8.2e-05
+predict: 28 | move: 11 | depth: 5 | nodes: 600 | elapsed: 2.74e-05 | total: 6.42e-05
+predict: 29 | move: 7 | depth: 5 | nodes: 768 | elapsed: 2.3e-05 | total: 7.99e-05
+predict: 31 | move: 8 | depth: 5 | nodes: 397 | elapsed: 2.36e-05 | total: 4.01e-05
+predict: 37 | move: 10 | depth: 5 | nodes: 378 | elapsed: 2.28e-05 | total: 3.71e-05
+predict: 36 | move: 7 | depth: 5 | nodes: 740 | elapsed: 3.59e-05 | total: 6.23e-05
+totals | nodes: 37851 | elapsed: 0.00325 | think: 0.00674 | nodes/sec: 1.17e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.000974 | total: 0.00205
+predict: 26 | move: 8 | depth: 5 | nodes: 9719 | elapsed: 0.00131 | total: 0.00215
+predict: 27 | move: 9 | depth: 5 | nodes: 3978 | elapsed: 0.000169 | total: 0.000512
+predict: 31 | move: 7 | depth: 5 | nodes: 2532 | elapsed: 0.000116 | total: 0.000341
+predict: 32 | move: 7 | depth: 5 | nodes: 3282 | elapsed: 0.000113 | total: 0.000428
+predict: 34 | move: 7 | depth: 5 | nodes: 2368 | elapsed: 0.000102 | total: 0.000319
+predict: 32 | move: 10 | depth: 5 | nodes: 2504 | elapsed: 0.000113 | total: 0.000339
+predict: 33 | move: 8 | depth: 5 | nodes: 1800 | elapsed: 6.44e-05 | total: 0.000231
+predict: 31 | move: 9 | depth: 5 | nodes: 805 | elapsed: 3.25e-05 | total: 9.64e-05
+predict: 33 | move: 7 | depth: 5 | nodes: 865 | elapsed: 3.78e-05 | total: 0.000101
+predict: 33 | move: 10 | depth: 5 | nodes: 737 | elapsed: 3.17e-05 | total: 8.03e-05
+predict: 28 | move: 11 | depth: 5 | nodes: 600 | elapsed: 2.75e-05 | total: 6.43e-05
+predict: 29 | move: 7 | depth: 5 | nodes: 768 | elapsed: 2.31e-05 | total: 7.98e-05
+predict: 31 | move: 8 | depth: 5 | nodes: 397 | elapsed: 2.36e-05 | total: 4e-05
+predict: 37 | move: 10 | depth: 5 | nodes: 378 | elapsed: 2.28e-05 | total: 3.71e-05
+predict: 36 | move: 7 | depth: 5 | nodes: 740 | elapsed: 3.6e-05 | total: 6.22e-05
+totals | nodes: 37851 | elapsed: 0.0032 | think: 0.00693 | nodes/sec: 1.18e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.000972 | total: 0.00205
+predict: 26 | move: 7 | depth: 5 | nodes: 5488 | elapsed: 0.000474 | total: 0.00177
+predict: 30 | move: 8 | depth: 5 | nodes: 7818 | elapsed: 0.000217 | total: 0.00107
+predict: 28 | move: 7 | depth: 5 | nodes: 8654 | elapsed: 0.000247 | total: 0.00103
+predict: 27 | move: 10 | depth: 5 | nodes: 7160 | elapsed: 0.000223 | total: 0.000879
+predict: 24 | move: 9 | depth: 5 | nodes: 3911 | elapsed: 0.00017 | total: 0.000461
+predict: 28 | move: 11 | depth: 5 | nodes: 1161 | elapsed: 5.68e-05 | total: 0.000144
+predict: 35 | move: 8 | depth: 5 | nodes: 1224 | elapsed: 3.73e-05 | total: 0.000125
+predict: 37 | move: 7 | depth: 5 | nodes: 673 | elapsed: 2.37e-05 | total: 6.52e-05
+predict: 38 | move: 7 | depth: 5 | nodes: 955 | elapsed: 3.09e-05 | total: 9.43e-05
+predict: 36 | move: 7 | depth: 5 | nodes: 1469 | elapsed: 3.67e-05 | total: 0.000141
+predict: 36 | move: 8 | depth: 5 | nodes: 706 | elapsed: 3.4e-05 | total: 7.09e-05
+predict: 39 | move: 11 | depth: 5 | nodes: 2175 | elapsed: 0.000117 | total: 0.000179
+predict: 40 | move: 9 | depth: 5 | nodes: 1159 | elapsed: 5.9e-05 | total: 9.74e-05
+totals | nodes: 48931 | elapsed: 0.0027 | think: 0.00818 | nodes/sec: 1.81e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.000973 | total: 0.00205
+predict: 26 | move: 7 | depth: 5 | nodes: 5488 | elapsed: 0.000459 | total: 0.00175
+predict: 30 | move: 8 | depth: 5 | nodes: 7818 | elapsed: 0.000235 | total: 0.00112
+predict: 28 | move: 7 | depth: 5 | nodes: 8654 | elapsed: 0.000247 | total: 0.00103
+predict: 27 | move: 10 | depth: 5 | nodes: 7160 | elapsed: 0.000224 | total: 0.00088
+predict: 24 | move: 9 | depth: 5 | nodes: 3911 | elapsed: 0.000173 | total: 0.000464
+predict: 28 | move: 11 | depth: 5 | nodes: 1161 | elapsed: 5.7e-05 | total: 0.000145
+predict: 35 | move: 8 | depth: 5 | nodes: 1224 | elapsed: 3.73e-05 | total: 0.000125
+predict: 37 | move: 7 | depth: 5 | nodes: 673 | elapsed: 2.35e-05 | total: 6.51e-05
+predict: 38 | move: 7 | depth: 5 | nodes: 955 | elapsed: 3.11e-05 | total: 9.43e-05
+predict: 36 | move: 7 | depth: 5 | nodes: 1469 | elapsed: 3.66e-05 | total: 0.000141
+predict: 36 | move: 8 | depth: 5 | nodes: 706 | elapsed: 3.4e-05 | total: 7.09e-05
+predict: 39 | move: 11 | depth: 5 | nodes: 2175 | elapsed: 0.000118 | total: 0.000179
+predict: 40 | move: 9 | depth: 5 | nodes: 1159 | elapsed: 5.89e-05 | total: 9.73e-05
+totals | nodes: 48931 | elapsed: 0.00271 | think: 0.00822 | nodes/sec: 1.81e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.000974 | total: 0.00205
+predict: 28 | move: 7 | depth: 5 | nodes: 7270 | elapsed: 0.000974 | total: 0.00179
+predict: 29 | move: 9 | depth: 5 | nodes: 7124 | elapsed: 0.000244 | total: 0.000937
+predict: 32 | move: 10 | depth: 5 | nodes: 3552 | elapsed: 0.000103 | total: 0.000487
+predict: 36 | move: 9 | depth: 5 | nodes: 1716 | elapsed: 5.74e-05 | total: 0.00023
+predict: 37 | move: 7 | depth: 5 | nodes: 1179 | elapsed: 4.52e-05 | total: 0.000146
+predict: 36 | move: 8 | depth: 5 | nodes: 1195 | elapsed: 3.66e-05 | total: 0.000135
+predict: 36 | move: 7 | depth: 5 | nodes: 925 | elapsed: 3.36e-05 | total: 0.000104
+predict: 30 | move: 11 | depth: 5 | nodes: 730 | elapsed: 3.12e-05 | total: 7.69e-05
+predict: 31 | move: 9 | depth: 5 | nodes: 666 | elapsed: 3.75e-05 | total: 7e-05
+predict: 33 | move: 7 | depth: 5 | nodes: 704 | elapsed: 2.29e-05 | total: 6.78e-05
+predict: 33 | move: 10 | depth: 5 | nodes: 531 | elapsed: 2.51e-05 | total: 5.37e-05
+predict: 35 | move: 7 | depth: 5 | nodes: 864 | elapsed: 3.05e-05 | total: 7.78e-05
+predict: 36 | move: 9 | depth: 5 | nodes: 599 | elapsed: 2.91e-05 | total: 5.56e-05
+predict: 36 | move: 8 | depth: 5 | nodes: 472 | elapsed: 2.74e-05 | total: 4.04e-05
+totals | nodes: 33905 | elapsed: 0.00267 | think: 0.00633 | nodes/sec: 1.27e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.000999 | total: 0.00212
+predict: 28 | move: 7 | depth: 5 | nodes: 7270 | elapsed: 0.000781 | total: 0.0017
+predict: 29 | move: 9 | depth: 5 | nodes: 7124 | elapsed: 0.000243 | total: 0.000935
+predict: 32 | move: 10 | depth: 5 | nodes: 3552 | elapsed: 0.000103 | total: 0.000491
+predict: 36 | move: 9 | depth: 5 | nodes: 1716 | elapsed: 5.77e-05 | total: 0.000231
+predict: 37 | move: 7 | depth: 5 | nodes: 1179 | elapsed: 4.53e-05 | total: 0.000143
+predict: 36 | move: 8 | depth: 5 | nodes: 1195 | elapsed: 3.66e-05 | total: 0.000135
+predict: 36 | move: 7 | depth: 5 | nodes: 925 | elapsed: 3.37e-05 | total: 0.000104
+predict: 30 | move: 11 | depth: 5 | nodes: 730 | elapsed: 3.12e-05 | total: 7.69e-05
+predict: 31 | move: 9 | depth: 5 | nodes: 666 | elapsed: 3.73e-05 | total: 6.99e-05
+predict: 33 | move: 7 | depth: 5 | nodes: 704 | elapsed: 2.28e-05 | total: 6.76e-05
+predict: 33 | move: 10 | depth: 5 | nodes: 531 | elapsed: 2.49e-05 | total: 5.38e-05
+predict: 35 | move: 7 | depth: 5 | nodes: 864 | elapsed: 3.01e-05 | total: 7.77e-05
+predict: 36 | move: 9 | depth: 5 | nodes: 599 | elapsed: 2.89e-05 | total: 5.55e-05
+predict: 36 | move: 8 | depth: 5 | nodes: 472 | elapsed: 2.73e-05 | total: 4.03e-05
+totals | nodes: 33905 | elapsed: 0.0025 | think: 0.0063 | nodes/sec: 1.36e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.000974 | total: 0.00205
+predict: 27 | move: 9 | depth: 5 | nodes: 11268 | elapsed: 0.00103 | total: 0.00242
+predict: 29 | move: 7 | depth: 5 | nodes: 7403 | elapsed: 0.000608 | total: 0.00102
+predict: 26 | move: 7 | depth: 5 | nodes: 7214 | elapsed: 0.000194 | total: 0.000967
+predict: 28 | move: 10 | depth: 5 | nodes: 3909 | elapsed: 0.000139 | total: 0.000551
+predict: 29 | move: 9 | depth: 5 | nodes: 1465 | elapsed: 5.9e-05 | total: 0.000192
+predict: 33 | move: 8 | depth: 5 | nodes: 1765 | elapsed: 6.27e-05 | total: 0.000208
+predict: 36 | move: 7 | depth: 5 | nodes: 1837 | elapsed: 5.91e-05 | total: 0.000226
+predict: 37 | move: 7 | depth: 5 | nodes: 1732 | elapsed: 5.49e-05 | total: 0.00022
+predict: 37 | move: 10 | depth: 5 | nodes: 1559 | elapsed: 6.77e-05 | total: 0.000198
+predict: 37 | move: 9 | depth: 5 | nodes: 1042 | elapsed: 4.8e-05 | total: 0.000127
+predict: 37 | move: 8 | depth: 5 | nodes: 1191 | elapsed: 5.42e-05 | total: 0.000143
+predict: 39 | move: 7 | depth: 5 | nodes: 1366 | elapsed: 4.22e-05 | total: 0.00016
+predict: 39 | move: 10 | depth: 5 | nodes: 1059 | elapsed: 3.72e-05 | total: 0.000125
+predict: 40 | move: 9 | depth: 5 | nodes: 867 | elapsed: 4.44e-05 | total: 9.85e-05
+predict: 42 | move: 8 | depth: 5 | nodes: 701 | elapsed: 4.19e-05 | total: 7.64e-05
+totals | nodes: 50756 | elapsed: 0.00351 | think: 0.00879 | nodes/sec: 1.44e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.000972 | total: 0.00205
+predict: 27 | move: 9 | depth: 5 | nodes: 11268 | elapsed: 0.00105 | total: 0.00245
+predict: 29 | move: 7 | depth: 5 | nodes: 7403 | elapsed: 0.000601 | total: 0.00101
+predict: 26 | move: 7 | depth: 5 | nodes: 7214 | elapsed: 0.000194 | total: 0.000955
+predict: 28 | move: 10 | depth: 5 | nodes: 3909 | elapsed: 0.000139 | total: 0.000543
+predict: 29 | move: 9 | depth: 5 | nodes: 1465 | elapsed: 5.82e-05 | total: 0.000189
+predict: 33 | move: 8 | depth: 5 | nodes: 1765 | elapsed: 6.25e-05 | total: 0.000211
+predict: 36 | move: 7 | depth: 5 | nodes: 1837 | elapsed: 9.81e-05 | total: 0.000289
+predict: 37 | move: 7 | depth: 5 | nodes: 1732 | elapsed: 5.32e-05 | total: 0.000222
+predict: 37 | move: 10 | depth: 5 | nodes: 1559 | elapsed: 6.79e-05 | total: 0.000203
+predict: 37 | move: 9 | depth: 5 | nodes: 1042 | elapsed: 4.78e-05 | total: 0.000126
+predict: 37 | move: 8 | depth: 5 | nodes: 1191 | elapsed: 5.39e-05 | total: 0.000142
+predict: 39 | move: 7 | depth: 5 | nodes: 1366 | elapsed: 4.23e-05 | total: 0.000158
+predict: 39 | move: 10 | depth: 5 | nodes: 1059 | elapsed: 3.72e-05 | total: 0.000123
+predict: 40 | move: 9 | depth: 5 | nodes: 867 | elapsed: 4.43e-05 | total: 9.79e-05
+predict: 42 | move: 8 | depth: 5 | nodes: 701 | elapsed: 4.19e-05 | total: 7.6e-05
+totals | nodes: 50756 | elapsed: 0.00356 | think: 0.00885 | nodes/sec: 1.43e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.000716 | total: 0.0018
+predict: 27 | move: 9 | depth: 5 | nodes: 11268 | elapsed: 0.000851 | total: 0.00197
+predict: 29 | move: 7 | depth: 5 | nodes: 7403 | elapsed: 0.000603 | total: 0.00101
+predict: 26 | move: 7 | depth: 5 | nodes: 7214 | elapsed: 0.000206 | total: 0.000982
+predict: 28 | move: 10 | depth: 5 | nodes: 3909 | elapsed: 0.000138 | total: 0.00055
+predict: 29 | move: 9 | depth: 5 | nodes: 1465 | elapsed: 5.89e-05 | total: 0.000192
+predict: 33 | move: 8 | depth: 5 | nodes: 1765 | elapsed: 6.24e-05 | total: 0.000208
+predict: 36 | move: 7 | depth: 5 | nodes: 1837 | elapsed: 5.93e-05 | total: 0.000225
+predict: 37 | move: 7 | depth: 5 | nodes: 1732 | elapsed: 5.31e-05 | total: 0.000217
+predict: 37 | move: 10 | depth: 5 | nodes: 1559 | elapsed: 6.76e-05 | total: 0.000198
+predict: 37 | move: 9 | depth: 5 | nodes: 1042 | elapsed: 4.78e-05 | total: 0.000127
+predict: 37 | move: 8 | depth: 5 | nodes: 1191 | elapsed: 5.56e-05 | total: 0.000147
+predict: 39 | move: 7 | depth: 5 | nodes: 1366 | elapsed: 8.45e-05 | total: 0.00016
+predict: 39 | move: 10 | depth: 5 | nodes: 1059 | elapsed: 3.71e-05 | total: 0.000125
+predict: 40 | move: 9 | depth: 5 | nodes: 867 | elapsed: 4.43e-05 | total: 9.85e-05
+predict: 42 | move: 8 | depth: 5 | nodes: 701 | elapsed: 4.21e-05 | total: 7.66e-05
+totals | nodes: 50756 | elapsed: 0.00313 | think: 0.00809 | nodes/sec: 1.62e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.000971 | total: 0.00205
+predict: 26 | move: 8 | depth: 5 | nodes: 9719 | elapsed: 0.00188 | total: 0.00271
+predict: 27 | move: 9 | depth: 5 | nodes: 3978 | elapsed: 0.000165 | total: 0.000504
+predict: 36 | move: 7 | depth: 5 | nodes: 2212 | elapsed: 8.77e-05 | total: 0.000298
+predict: 36 | move: 10 | depth: 5 | nodes: 2427 | elapsed: 0.000113 | total: 0.00031
+predict: 38 | move: 9 | depth: 5 | nodes: 1303 | elapsed: 7.27e-05 | total: 0.000167
+predict: 39 | move: 7 | depth: 5 | nodes: 1628 | elapsed: 7.92e-05 | total: 0.000185
+predict: 42 | move: 7 | depth: 5 | nodes: 1817 | elapsed: 4.91e-05 | total: 0.000203
+predict: 43 | move: 9 | depth: 5 | nodes: 2342 | elapsed: 0.000143 | total: 0.000253
+totals | nodes: 31804 | elapsed: 0.00356 | think: 0.00669 | nodes/sec: 8.93e+06
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.000851 | total: 0.00193
+predict: 26 | move: 8 | depth: 5 | nodes: 9719 | elapsed: 0.00107 | total: 0.00146
+predict: 27 | move: 9 | depth: 5 | nodes: 3978 | elapsed: 0.000165 | total: 0.000503
+predict: 36 | move: 7 | depth: 5 | nodes: 2212 | elapsed: 8.75e-05 | total: 0.000298
+predict: 36 | move: 10 | depth: 5 | nodes: 2427 | elapsed: 0.000113 | total: 0.00031
+predict: 38 | move: 9 | depth: 5 | nodes: 1303 | elapsed: 7.08e-05 | total: 0.000162
+predict: 39 | move: 7 | depth: 5 | nodes: 1628 | elapsed: 6.19e-05 | total: 0.000185
+predict: 42 | move: 7 | depth: 5 | nodes: 1817 | elapsed: 4.91e-05 | total: 0.000203
+predict: 43 | move: 9 | depth: 5 | nodes: 2342 | elapsed: 0.000142 | total: 0.000252
+totals | nodes: 31804 | elapsed: 0.00261 | think: 0.0053 | nodes/sec: 1.22e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.000834 | total: 0.00191
+predict: 28 | move: 7 | depth: 5 | nodes: 7270 | elapsed: 0.000624 | total: 0.00121
+predict: 23 | move: 8 | depth: 5 | nodes: 4968 | elapsed: 0.000229 | total: 0.000788
+predict: 17 | move: 10 | depth: 5 | nodes: 4667 | elapsed: 0.00018 | total: 0.000675
+predict: 28 | move: 7 | depth: 5 | nodes: 4998 | elapsed: 0.000139 | total: 0.00067
+predict: 24 | move: 12 | depth: 5 | nodes: 1452 | elapsed: 5.88e-05 | total: 0.000188
+predict: 23 | move: 9 | depth: 5 | nodes: 798 | elapsed: 4.25e-05 | total: 9.14e-05
+predict: 33 | move: 12 | depth: 5 | nodes: 2323 | elapsed: 6.99e-05 | total: 0.000261
+predict: 30 | move: 10 | depth: 5 | nodes: 1598 | elapsed: 6.89e-05 | total: 0.000188
+predict: 39 | move: 9 | depth: 5 | nodes: 446 | elapsed: 3.25e-05 | total: 4.45e-05
+predict: 38 | move: 7 | depth: 5 | nodes: 214 | elapsed: 1.44e-05 | total: 1.73e-05
+totals | nodes: 35112 | elapsed: 0.00229 | think: 0.00605 | nodes/sec: 1.53e+07
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.000995 | total: 0.00226
+predict: 26 | move: 8 | depth: 5 | nodes: 9719 | elapsed: 0.00232 | total: 0.0032
+predict: 27 | move: 9 | depth: 5 | nodes: 3978 | elapsed: 0.000358 | total: 0.00109
+predict: 36 | move: 7 | depth: 5 | nodes: 2212 | elapsed: 0.000192 | total: 0.00065
+predict: 36 | move: 10 | depth: 5 | nodes: 2427 | elapsed: 0.000244 | total: 0.000671
+predict: 38 | move: 9 | depth: 5 | nodes: 1303 | elapsed: 0.000151 | total: 0.000351
+predict: 44 | move: 8 | depth: 5 | nodes: 942 | elapsed: 0.000101 | total: 0.000231
+predict: 43 | move: 7 | depth: 5 | nodes: 764 | elapsed: 5.92e-05 | total: 0.00017
+totals | nodes: 27723 | elapsed: 0.00442 | think: 0.00863 | nodes/sec: 6.27e+06
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.000994 | total: 0.00224
+predict: 27 | move: 8 | depth: 5 | nodes: 6546 | elapsed: 0.00098 | total: 0.002
+predict: 27 | move: 9 | depth: 5 | nodes: 2951 | elapsed: 0.000235 | total: 0.000841
+predict: 30 | move: 10 | depth: 5 | nodes: 3707 | elapsed: 0.000386 | total: 0.00112
+predict: 27 | move: 7 | depth: 5 | nodes: 1591 | elapsed: 0.000188 | total: 0.000452
+predict: 35 | move: 8 | depth: 5 | nodes: 4042 | elapsed: 0.000401 | total: 0.00122
+predict: 36 | move: 8 | depth: 5 | nodes: 2699 | elapsed: 0.000286 | total: 0.000765
+predict: 35 | move: 9 | depth: 5 | nodes: 1831 | elapsed: 0.00012 | total: 0.000524
+predict: 35 | move: 7 | depth: 5 | nodes: 1046 | elapsed: 8.31e-05 | total: 0.000287
+predict: 32 | move: 10 | depth: 5 | nodes: 1175 | elapsed: 7.86e-05 | total: 0.000333
+predict: 34 | move: 9 | depth: 5 | nodes: 745 | elapsed: 6.01e-05 | total: 0.000178
+predict: 36 | move: 8 | depth: 5 | nodes: 610 | elapsed: 6.3e-05 | total: 0.000144
+predict: 36 | move: 7 | depth: 5 | nodes: 674 | elapsed: 5.11e-05 | total: 0.000151
+predict: 37 | move: 9 | depth: 5 | nodes: 477 | elapsed: 5.15e-05 | total: 0.000107
+totals | nodes: 34472 | elapsed: 0.00398 | think: 0.0104 | nodes/sec: 8.67e+06
+alpha-beta: yes | deepen: no | random-opponent: yes | sort: yes | weighted-score: no
+predict: 25 | move: 10 | depth: 5 | nodes: 6378 | elapsed: 0.00097 | total: 0.00205
+predict: 27 | move: 9 | depth: 5 | nodes: 11268 | elapsed: 0.00169 | total: 0.00341
+predict: 29 | move: 7 | depth: 5 | nodes: 7403 | elapsed: 0.00131 | total: 0.0022
+predict: 29 | move: 8 | depth: 5 | nodes: 14489 | elapsed: 0.00262 | total: 0.00379
+predict: 29 | move: 7 | depth: 5 | nodes: 2822 | elapsed: 0.000131 | total: 0.000364
+predict: 30 | move: 7 | depth: 5 | nodes: 3501 | elapsed: 0.000151 | total: 0.000443
+predict: 30 | move: 7 | depth: 5 | nodes: 3949 | elapsed: 0.000179 | total: 0.000515
+predict: 28 | move: 10 | depth: 5 | nodes: 3437 | elapsed: 0.000114 | total: 0.000476
+predict: 33 | move: 8 | depth: 5 | nodes: 3616 | elapsed: 0.000195 | total: 0.000427
+predict: 35 | move: 7 | depth: 5 | nodes: 1526 | elapsed: 7.74e-05 | total: 0.0002
+predict: 36 | move: 7 | depth: 5 | nodes: 1449 | elapsed: 5.08e-05 | total: 0.000182
+predict: 32 | move: 9 | depth: 5 | nodes: 969 | elapsed: 4.22e-05 | total: 0.000118
+predict: 31 | move: 8 | depth: 5 | nodes: 712 | elapsed: 3.11e-05 | total: 7.29e-05
+predict: 26 | move: 11 | depth: 5 | nodes: 472 | elapsed: 2.2e-05 | total: 4.66e-05
+predict: 26 | move: 7 | depth: 5 | nodes: 897 | elapsed: 2.32e-05 | total: 8.72e-05
+predict: 27 | move: 9 | depth: 5 | nodes: 626 | elapsed: 2.41e-05 | total: 6.27e-05
+predict: 28 | move: 7 | depth: 5 | nodes: 471 | elapsed: 1.57e-05 | total: 4.36e-05
+predict: 28 | move: 10 | depth: 5 | nodes: 437 | elapsed: 2.39e-05 | total: 4.1e-05
+predict: 29 | move: 8 | depth: 5 | nodes: 596 | elapsed: 3.1e-05 | total: 5.03e-05
+predict: 29 | move: 9 | depth: 5 | nodes: 2359 | elapsed: 0.000138 | total: 0.000167
+totals | nodes: 67377 | elapsed: 0.00784 | think: 0.0147 | nodes/sec: 8.59e+06
+alpha-beta: yes | deepen: yes | random-opponent: yes | sort: yes | weighted-score: yes
+predict: 29 | move: 11 | depth: 12 | nodes: 9336109 | elapsed: 0.847 | total: 1.28
+predict: 28 | move: 9 | depth: 12 | nodes: 5525653 | elapsed: 0.478 | total: 0.747
+predict: 28 | move: 8 | depth: 13 | nodes: 6104448 | elapsed: 0.268 | total: 0.928
+predict: 32 | move: 11 | depth: 13 | nodes: 6520613 | elapsed: 0.337 | total: 0.971
+predict: 43 | move: 9 | depth: 13 | nodes: 4823489 | elapsed: 0.33 | total: 0.731
+predict: 42 | move: 8 | depth: 12 | nodes: 5309978 | elapsed: 0.447 | total: 0.623
+predict: 35 | move: 11 | depth: 12 | nodes: 4043018 | elapsed: 0.359 | total: 0.443
+predict: 40 | move: 9 | depth: 14 | nodes: 2365049 | elapsed: 0.145 | total: 0.329
+totals | nodes: 44028357 | elapsed: 3.21 | think: 6.05 | nodes/sec: 1.37e+07
